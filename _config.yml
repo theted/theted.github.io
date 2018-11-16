@@ -1,0 +1,11 @@
+# Jekyll site settings
+title: Implementator
+email: fs222vr@student.lnu.se
+description: Fredrik Sundberg / fs222vr 2018
+baseurl: ""
+url: ""
+github_username:  theted
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
