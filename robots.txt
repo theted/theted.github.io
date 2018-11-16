@@ -1,0 +1,3 @@
+# Tell crawlers that they are welcome everywhere
+User-agent: *
+Disallow:
