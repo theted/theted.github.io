@@ -3,7 +3,7 @@ title: Implementator
 email: fs222vr@student.lnu.se
 description: Fredrik Sundberg / fs222vr 2018
 baseurl: ""
-url: ""
+url: "http://theted.github.io"
 github_username:  theted
 markdown: kramdown
 theme: minima
