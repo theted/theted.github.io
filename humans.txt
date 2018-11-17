@@ -1,0 +1,25 @@
+/*
+ * IMPLEMENTATOR
+ * * * * * * * */
+
+
+/* TEAM */
+	Sole developer: Fredrik Sundberg
+	Site: fs222vr@student.lnu.se
+	Location: Kalmar, Sweden
+
+/* THANKS */
+	The wonderful staff for the course "client-based web programming" at Linnaeus University;
+	- Johan Leitet
+	- Mats Loock
+	- Jacob Lindehoff
+
+/* SITE */
+	Last update: 2018/11/17
+	Standards: HTML5, CSS3
+	Software: Visual studio code
+
+/* UNDER THE HOOD */
+	Jekyll [https://jekyllrb.com/]
+	Docker [https://www.docker.com/]
+	SASS [https://sass-lang.com/]
