@@ -16,3 +16,6 @@ defaults:
       image: /assets/images/logo.png
 disqus:
   shortname: implementator
+sass:
+  sass_dir: assets/css
+  style: compact # possible values: nested, expanded, compact, compressed
