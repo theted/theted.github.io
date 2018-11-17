@@ -9,3 +9,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logo.png
