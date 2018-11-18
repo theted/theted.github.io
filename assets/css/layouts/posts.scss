@@ -1,0 +1,21 @@
+/*
+ * posts list
+ */
+
+ .post-list {
+  @include media-query(880px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+}
+
+/*
+ * single post
+ */
+
+.post {
+  background: white;
+  padding: 2em;
+  color: #444;
+}
