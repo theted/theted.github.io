@@ -1,0 +1,10 @@
+$baseColor: #212121;
+$primaryColor: rgba(144, 17, 105, 1);
+$secondaryColor: rgba(51, 0, 131, 1);
+$shadowColor: rgba(darken($baseColor, 25%), 0.3);
+$backgroundColor: darken($baseColor, 10%);
+$textColor: lighten($baseColor, 65%);
+$space: 2em;
+$breakpointHuge: 1240px;
+$breakpointSmall: 600px;
+$breakpointTiny: 440px;
