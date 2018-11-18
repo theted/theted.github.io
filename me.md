@@ -9,8 +9,4 @@ My name is Fredrik Sundberg. I was born and raised in Lund, Sweden, however I am
 ## Interests
 Some of my interests include:
 
-<ul>
-  {% for track in site.data.about.interests %}
-    <li>{{ track }}</li>
-  {% endfor %}
-</ul>
+{% include list.html items=site.data.about.interests %}
