@@ -1,0 +1,37 @@
+/*
+ * home page layout
+ */
+
+.home {
+  .top {
+    h1 {
+      font-weight: bold;
+    }
+    p {
+      font-size: 132%;
+      font-weight: 300;
+    }
+  }
+  .post-list-heading {
+    border-top: 1px solid #ccc;
+  }
+  img {
+    max-height: 250px;
+    @include drop-shadow(20px, $shadowColor);
+    @media screen and (max-width: 700px) {
+      display: none;
+    }
+   }
+  @media screen and (min-width: 700px) {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    .top {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h2, .post-list {
+      grid-column: 1 / -1;
+    }
+  }
+}
