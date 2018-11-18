@@ -1,0 +1,33 @@
+/*
+ * mixins
+ */
+
+@mixin gradient($from, $to, $angle: 0deg) {
+  background: linear-gradient($angle, $from, $to);
+}
+
+@mixin radial-gradient($from, $to) {
+  background: radial-gradient(elipse at center, $from 0%, $to 100%);
+}
+
+@mixin drop-shadow($radius: 20px, $color: $shadowColor, $offset: 0) {
+  -webkit-filter: drop-shadow($offset $offset $radius $color);
+  filter: drop-shadow($offset $offset $radius $color);
+}
+
+@mixin valign() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@mixin media-query($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin debug() {
+  outline: 1px solid rgba(250, 220, 0, 0.7);
+}
