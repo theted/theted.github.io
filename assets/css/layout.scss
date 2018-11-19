@@ -7,6 +7,18 @@ body {
 }
 
 /*
+ * utilize extra whitespace on large screens
+ */
+.page-content {
+  @include media-query($breakpointHuge) {
+    margin: 3em 0;
+    display: flex;
+    align-items: center;
+    // min-height: 85vh;
+  }
+}
+
+/*
  * header borders
  */
 .site-header {
