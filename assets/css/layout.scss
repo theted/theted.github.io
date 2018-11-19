@@ -1,0 +1,30 @@
+/*
+ * fancy background
+ */
+
+body {
+  background-image: radial-gradient(circle farthest-corner at 52.1% -29.6%, $primaryColor 0%, $secondaryColor 100%);
+}
+
+/*
+ * header borders
+ */
+.site-header {
+  border-top: 0;
+  border-bottom: 1px solid fade-out(#aa08db, 0.6);
+}
+
+/*
+ * light text color on top sections
+ * TODO: fix ugly hack!
+ */
+
+.site-header a,
+.page-content>.wrapper {
+  color: #f9f9f9 !important;
+}
+
+.site-footer {
+  background: white;
+  box-shadow: 0 0 90px $shadowColor
+}
