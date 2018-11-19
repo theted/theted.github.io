@@ -1,5 +1,13 @@
 <ul>
   {% for item in include.items %}
-  <li>{{ item }}</li>
+  <li>
+    {% if item.first %}
+    {% for data in item %}
+    <a href="{{ data[1] }}">{{ data[0] }}</a>
+    {% endfor %}
+    {% else %}
+    {{ item }}
+    {% endif %}
+  </li>
   {% endfor %}
 </ul>
