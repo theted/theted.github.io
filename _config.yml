@@ -13,7 +13,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/logo.png
+      image: /assets/images/triangle.svg
 disqus:
   shortname: implementator
 sass:
