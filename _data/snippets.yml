@@ -1,0 +1,13 @@
+Jekyll:
+    'Comment': '
+        {% comment %}
+            This is a comment
+        {% endcomment %}'
+    'Include image': '![logo](/assets/images/triangle.svg){:class="test"}'
+SASS:
+    'Variable number of variables in mixins': '
+        @mixin padding($values...) {
+            @each $var in $values {
+                padding: #{$var};
+            }
+        }'
