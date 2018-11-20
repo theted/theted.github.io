@@ -40,3 +40,24 @@ body {
   background: white;
   box-shadow: 0 0 90px $shadowColor
 }
+
+/*
+ * set whitespace for posts list
+ */
+.post-list-heading {
+  margin-top: 1.5em;
+  padding-top: 1em;
+}
+
+.post-list li {
+  margin: 0;
+}
+
+/*
+ * set (max) width of main container element
+ * TODO: avoid duplication of this definition
+ */
+.wrapper {
+  width: 100%;
+  max-width: 800px;
+}
