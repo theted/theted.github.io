@@ -1,0 +1,16 @@
+{% for item in include.items %}
+{% if item.first %}
+<h3>{{ item[0] }}</h3>
+{% for snippet in item[1] %}
+{{ snippet[0] }}: <br>
+
+{% highlight txt %}
+{{ snippet [1] }}
+{% endhighlight %}
+{% endfor %}
+
+{% else %}
+{{ item}}
+{% endif %}
+
+{% endfor %}
